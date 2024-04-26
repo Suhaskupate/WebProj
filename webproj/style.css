@@ -1,0 +1,487 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+
+}
+.main{
+    background-color:black;
+    padding: 8px;
+    width: 96%;
+    margin: auto;
+}
+.ftitle{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: Open Sans Regular,Arial,sans-serif;
+}
+.grey-Wrapper{
+    display:flex;
+    color:rgb(83, 81, 81);
+    gap: 10px;
+    font-weight:50px;
+    font-size: 11px;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+  
+    
+}
+.stitle{
+display: flex;
+color: rgb(83, 81, 81);
+gap: 10px;
+font-weight: 50px;
+font-size: 11px;
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+
+}
+.loginheader{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+ 
+}
+.fav{
+    display:flex;
+    justify-content:space-evenly;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+    font-weight: 50px;
+    font-size: 11px;
+    color: rgb(83, 81, 81);
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    
+}
+.logobar{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+margin-top: 30px;
+}
+
+.logoimg{
+    margin: auto;
+}
+
+ .logoimg img{
+    width: 180px;
+    
+}
+.inputsearch    {
+   display: flex;
+   gap: 10px;
+   color: #b6afaf;
+   align-items: end;
+
+
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+}
+.logo i{
+    font-size: 25px;
+    justify-content: space-between;
+    color: rgb(78, 58, 133);
+    
+}
+
+.inputsearch .font_icon i{
+    font-size: 28px;
+    font-weight: 600;
+    color:rgb(36, 33, 33);
+   
+   
+}
+.inputsearch i{
+    margin-left: 10px;
+}   
+.category{
+margin-top: 30px;
+color: rgb(66, 65, 65);
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+list-style-type: none;
+padding: 15px;
+font-size: 12px;
+font-weight:10px;
+gap: 5px;
+
+}
+.container{
+    width: 80%;
+    margin:auto;
+
+}
+
+.offers{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 12px;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    color: #242222;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+    font-weight: 600;
+    font-size: 14px
+}
+.exclusbtn{
+font-size: 10px ;
+text-decoration: underline;
+margin-right: 0;
+margin-top: 40px;
+background-color:transparent;
+border: none;
+}
+
+.fimg img{
+    width:100%;
+}
+.fimg{
+    margin-top: 30px;
+}
+
+.simg img{
+    width: 100%;
+}
+.simg{
+    margin-top: 58px;
+
+}.shopcat{
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+    color:#323232;
+    font-family: Open Sans Regular, Arial, sans-serif;
+}
+.imgcategory{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    
+}
+ 
+.imgcategory img{
+    width: 100%;
+ 
+   
+}
+.imgcatname{
+text-align: center;
+margin: 10px 0;
+text-decoration: underline;
+font-size: 13px;
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+
+
+}
+.imgcatname:hover{
+    color: rgb(194, 194, 194);
+
+}
+.imgcatname:hover .title {
+    color: rgb(194, 194, 194);
+}
+
+.timg img{
+width: 100%;
+
+}
+.paytext{
+    color: #323232;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+    font-size: 32px;
+    text-align: center;
+    margin: 40px 0;
+}
+.title{
+    margin: 25px 0;
+    color: #1d1b1b;
+}
+
+.cmpnylogo{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+text-align: center;
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+color: #323232;
+}
+.cmpnybtn{
+    align-items: end;
+    padding: 15px;
+    width: 280px;
+    border: 1px solid#050505;
+    font-size: 16px;
+
+
+}
+.cmpnybtn:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.slideshow{
+overflow-x: auto;
+display: flex;
+gap: 20px;
+margin-top: 60px;
+text-align: center;
+
+}
+.slideshow img{
+    width: 300px;
+    border: 1px solid rgb(255, 253, 253);
+}
+
+.slide{
+    margin: 30px 0;
+}
+
+.slide:hover 
+{
+    color: #b6afaf;
+}
+
+.frimg img{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.slidetext{
+    margin-top: 30px;
+}
+.fevicons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-top: 70px;
+   
+}
+
+.fevicons img {
+width: 45%;
+
+}
+.fevitext{
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+color: #212121;
+font-size: 24px;
+margin-top: 80px;
+}
+
+.subset{
+font-family: "Open Sans Regular", "Arial", "sans-serif";
+font-size: 14px;
+margin: 20px 0;
+color:#212121
+}
+
+.learntext{
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+    font-size: 12px;
+}
+
+.learntext:hover 
+{
+ color: #b6afaf;
+}
+
+.promotext{
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+        color: #292828;
+        font-size: 16px;
+        text-align: center;
+        margin: 60px 0;
+}
+
+
+.bar{
+
+    background-color: #777171;
+    padding:2px;
+    width: 100%;
+}
+.einput{
+   
+    font-size: 18px;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+    margin-top: 20px;
+    
+}
+
+.etext {
+    background-color: #f0f0f0;
+    width: 15%;
+    text-align: center;
+    position:absolute;
+    color: #363636;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+    text-decoration:bold;
+    font-weight: 200;
+  
+   
+    
+}
+ .mailborder input{
+    border: 2px solid rgb(98, 98, 98);
+        width: 80%;
+        padding: 4px;
+        box-sizing: border-box;
+        margin: 10px 0;
+        font-size: 12px;    
+        color:#1d1b1b;
+  
+    
+}
+.footer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.signup{
+   font-size: 12px;
+   padding: 11px;
+   width: 80%;
+   background-color: #252424;
+   border: none;
+   color:aliceblue;
+
+  
+
+}
+.line{
+    padding:5px ;
+    border-bottom: 1px solid rgb(34, 33, 33);  
+    width: 80%;
+    font-family: "Open Sans Regular", "Arial", "sans-serif";
+
+}
+
+.customlist{
+    list-style: none;
+    line-height: 1.5;
+    font-size: 11px;
+   font-family:Open Sans Regular, Arial,sans-serif;
+ 
+}
+.line2{
+    padding: 5px;
+    border-bottom: 1px solid rgb(34, 33, 33);
+    width: 80%;
+
+   
+}
+.aboutlist{
+    list-style: none;
+    line-height: 1.5;
+    font-size: 11px;
+    font-family: Open Sans Regular, Arial, sans-serif;
+}
+.line3{
+    padding: 5px;
+    border-bottom:1px solid rgb(34, 33, 33) ;
+    width:80%;
+}
+
+.edulist{
+    list-style: none;
+    line-height: 1.5;
+    font-size: 11px;
+    font-family: Open Sans Regular, Arial, sans-serif;
+    line-height: 1.8;
+}
+.line4{
+    padding: 5px;
+    border-bottom: 1px solid #212121;
+    width:80%;
+    font-size: 14px;
+}
+
+
+.logotext{
+    display: flex;
+    gap: 5px ;
+    align-items: left;
+    line-height: 2;
+
+ 
+}
+.logodiv{
+    
+    width: 50%;
+   
+}
+.textdiv{
+    font-size: 11px;
+    font-family: Open Sans Regular, Arial, sans-serif;
+}
+.customer{
+   justify-content: space-evenly;
+}
+.icons{
+    display: flex;
+    margin-top: 10px;
+    font-family: Open Sans Regular, Arial, sans-serif;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+    .icons i{
+        font-size: 20px;
+        color: #242222;
+    }
+
+.line5{
+   
+    border-bottom:1px solid #212121;
+    font-size: 14px;
+    
+
+}
+.socialicons{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Open Sans Regular, Arial, sans-serif;
+}
+.lastfooter{
+    background-color: #363232;
+    padding: 15px;
+   display: flex;
+   color: #f0f0f0;
+   font-size: 10px;
+    justify-content: space-between;
+    gap: 40px;
+
+
+}
+.zalescom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footertext{
+    display: flex;
+    
+    list-style: none;
+    font-family: Open Sans Regular, Arial, sans-serif;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+
